@@ -1,6 +1,4 @@
-# include<stdio.h>
-#define N 20
-int b,bb,cc,d,dd,a;
+# include“paixu.h"
 
 
 void xuanze(int A[],int n) 
