@@ -1,5 +1,6 @@
-#这是makefile
-testlianzhan: lianzhan.c testlianzhan.c
-	gcc lianzhan.c testlianzhan.c -o testlianzhan
-clean:
-	rm testlianzhan
+#test4			
+test:LianQueue.c      DoubleQueue.c
+  gcc -g LianQueue.c DoubleQueue.c-o   test
+clean :
+	rm test
+
